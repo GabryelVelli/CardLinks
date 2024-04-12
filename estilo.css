@@ -1,0 +1,64 @@
+@keyframes fundo{
+    from {
+        background: rgb(17,24,205);
+        background: linear-gradient(90deg, rgba(17,24,205,1) 0%, rgba(255,0,0,1) 100%);
+    }
+    to {
+        background: rgb(255,0,0);
+        background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(17,24,205,1) 92%);
+    }
+}
+body{
+    background: rgb(17,24,205);
+    background: linear-gradient(90deg, rgba(17,24,205,1) 0%, rgba(255,0,0,1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    animation-name: fundo;
+    animation-duration: 5s;
+    animation-timing-function: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+#container{
+    background-color: rgba(211, 195, 195, 0.5);
+    width: 700px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+#perfil{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 30px;
+    border: 3px solid #011246;
+    object-fit: cover; /* fez a imagem se adaptar ao tamanho */
+}
+h1{
+    text-align: center;
+    color: #011246  ;
+}
+h3{
+    color: aliceblue;
+}
+
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+button{
+    width: 350px;
+    text-decoration: none;
+    text-align: center;
+    background: #011246;
+    color: aliceblue;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 15px 15px 0 rgba(0, 0, 91, 0.5);
+}
+a:hover,
+button:hover{
+    background: #061a55;
+}
